@@ -1,0 +1,31 @@
+[
+  {
+    "name": "ETL Log Pipeline",
+    "description": "Developed a modular ETL pipeline to process and normalize log data formats (CSV, JSON, TXT). Loaded transformed data into PostgreSQL for analysis and monitoring. Implemented execution logging to streamline debugging and auditing.",
+    "technologies": ["Python", "PostgreSQL", "ETL", "CSV/JSON/TXT"],
+    "github": "https://github.com/YudavaRoopnarine/etl_log_pipeline",
+    "demo": ""
+  },
+  {
+    "name": "Expense Tracker",
+    "description": "Built a full-stack expense tracker using Flask and PostgreSQL. Implemented user login, categorized transactions, and real-time summaries. Styled the frontend with HTML and CSS for a responsive interface.",
+    "technologies": ["Flask", "PostgreSQL", "HTML", "CSS"],
+    "github": "https://github.com/YudavaRoopnarine/ExpenseTracker",
+    "demo": ""
+  },
+  {
+    "name": "Weather Dashboard",
+    "description": "Developed a responsive web app using Flask and the OpenWeatherMap API. Implemented city-based search functionality and displayed 5-day forecasts. Designed a clean frontend interface using HTML and CSS.",
+    "technologies": ["Flask", "OpenWeatherMap API", "HTML", "CSS"],
+    "github": "https://github.com/YudavaRoopnarine/weather_dashboard",
+    "demo": ""
+  },
+  {
+    "name": "E-commerce Platform",
+    "description": "Designed and developed a basic e-commerce site with product listings and cart functionality. Managed user sessions and routing with Flask; stored data using PostgreSQL. Styled frontend with mobile responsiveness using HTML and CSS.",
+    "technologies": ["Flask", "PostgreSQL", "HTML", "CSS"],
+    "github": "https://github.com/YudavaRoopnarine/-E-commerce-Platform",
+    "demo": ""
+  }
+]
+
