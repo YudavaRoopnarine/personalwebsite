@@ -53,15 +53,15 @@ const Resume = () => {
 
         {/* Download CV */}
         <div className="mt-12 text-center">
-          <a
-              href="public/resume.pdf" // File located in the public folder
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-colors"
-          >
-            <FaDownload className="mr-2"/>
-            Download My Resume
-          </a>
+      <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-colors"
+        >
+          <FaDownload className="mr-2" />
+          View My Resume
+      </a>
         </div>
       </div>
     </section>
