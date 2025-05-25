@@ -32,13 +32,16 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-      <div className="md:hidden px-4 pt-4 pb-6 space-y-4 bg-gray-800">
-        <a href="/" className="block hover:text-gray-400"><FaHome className="inline mr-1" /> Home</a>
-        <a href="#about" className="block hover:text-gray-400"><FaUser className="inline mr-1" /> About</a>
-        <a href="#projects" className="block hover:text-gray-400"><FaBriefcase className="inline mr-1" /> Projects</a>
-        <a href="#contact" className="block hover:text-gray-400"><FaEnvelope className="inline mr-1" /> Contact</a>
-      </div>
-    )}
+          <div className="md:hidden px-4 pt-4 pb-6 space-y-4 bg-gray-800">
+            <a href="/" onClick={() => window.location.reload()} className="hover:text-gray-400">
+              <FaHome className="inline mr-1"/> Home
+            </a>
+            <a href="#about" className="block hover:text-gray-400"><FaUser className="inline mr-1"/> About</a>
+            <a href="#projects" className="block hover:text-gray-400"><FaBriefcase
+                className="inline mr-1"/> Projects</a>
+            <a href="#contact" className="block hover:text-gray-400"><FaEnvelope className="inline mr-1"/> Contact</a>
+          </div>
+      )}
 
     </nav>
   );

@@ -28,9 +28,9 @@ const Hero = () => {
       {/* Right side - Image or Graphic */}
       <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
         <img
-          src="/images/interest-rate-svgrepo-com.svg" // Replace with your image path
-          alt="Yuda's illustration or profile"
-          className="w-72 h-auto object-contain"
+            src={`${process.env.PUBLIC_URL}/images/interest-rate-svgrepo-com.svg`}
+            alt="Yuda's illustration or profile"
+            className="w-72 h-auto object-contain"
         />
       </div>
     </section>
