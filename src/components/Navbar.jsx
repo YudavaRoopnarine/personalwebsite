@@ -20,7 +20,9 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <ul className={`md:flex space-x-6 font-medium hidden md:items-center`}>
-          <li><a href="/" className="hover:text-gray-400"><FaHome className="inline mr-1"/> Home</a></li>
+          <a href="/" onClick={() => window.location.reload()} className="hover:text-gray-400">
+              <FaHome className="inline mr-1"/> Home
+            </a>
           <li><a href="#about" className="hover:text-gray-400"><FaUser className="inline mr-1"/> About</a></li>
           <li><a href="#projects" className="hover:text-gray-400"><FaBriefcase className="inline mr-1"/> Projects</a>
           </li>
