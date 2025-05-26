@@ -54,7 +54,7 @@ const Resume = () => {
         {/* Download CV */}
         <div className="mt-12 text-center">
           <a
-            href={`${process.env.PUBLIC_URL}/resume.pdf`}
+            href="https://YudavaRoopnarine.github.io/personalwebsite/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-colors"
